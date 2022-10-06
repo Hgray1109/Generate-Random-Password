@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container" id="container-light">
+            <h1>Generate a <span class="green-words"><br>random password</span></h1>
+            <p id="pLight">Never use an insecure password again.</p>
+            <button id="toggle">☀️</button>
+                <div class="password-btn">
+                    <button id="btn">🔑 Generate passwords</button>
+                    <input id="password-length" type="number" min="7" max="16" value="" placeholder="Length">
+                </div>
+                
+                <section id="password-results">
+                    <div class="password-container">
+                        
+                        <div class="row-1">
+                            <div class="result" id="result1">
+                                <span class="password" id="password-1"></span>
+                            </div>
+                            <div class="result" id="result2">
+                                <span class="password" id="password-2"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="row-2">
+                            <div class="result" id="result3">
+                                <span class="password" id="password-3"></span>
+                            </div>
+                            <div class="result" id="result4">
+                                <span class="password" id="password-4"></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
